@@ -1,0 +1,118 @@
+body{
+      font-family:arial,helvetica,sans-serif;
+      background-color:bisque;
+    }
+header
+    {
+      background-color:grey;
+      padding:20px;
+      text-align:center;
+      font-size:35px;
+      color:white;
+     }
+nav
+     {
+      width:20%;
+      background-color:grey;
+      height:300px;
+      padding:20px;
+      float:left;
+
+     }
+footer
+     {
+      background-color:grey;
+      padding:10px;
+      text-align:center;
+      color:white;
+
+     }
+section:after
+     {
+        content:" ";
+        display:table;
+        clear:both;
+     }
+article
+     {
+        float:left;
+        padding:20px;
+        width:80%;
+        background-color:#f1f1f1;
+        height:300px;
+      }
+nav ul
+      {
+        list-style-type:square;
+        padding:10px;
+      }
+  *
+      {
+         box-sizing:border-box;
+       }
+ .head img
+       {
+         margin-top: 10px;
+         float:left;
+         height:170px;
+         width:170px;
+         border-radius: 75%;
+         padding-top:5px;
+       }
+  p
+       {
+         font-size:25px;
+         color:white;
+       }
+   h2
+       {
+         text-align:center;
+         color:black;
+       }
+  table th,td{
+    border-collapse:inherit;
+    border:1px solid black;
+    text-align: left;
+    cellpadding:  7px;
+  }
+  img{
+    margin-left: 50px;
+    height:250px;
+    width:500px;
+  }
+.cert_img img{
+  align-content:center;
+  height:300px;
+  width:1300px;
+}
+.cert_img h2{
+  text-align: center;
+  color:red;
+}
+.goal h2{
+  text-align: center;
+  color:red;
+}
+.skill h2{
+text-align: center;
+  color:red;
+}
+ul li{
+  margin-left: 50px;
+  align-content:center;
+  color:blue;
+}
+.edu table,th,td{
+  margin-left: 20px;
+  border-collapse:inherit;
+  border:1px solid black;
+  text-align: center;
+  cellspacing:  10px;
+}
+.ico img{
+  height:20px;
+  width:30px;
+}
+.edu h2{
+  color:red;
+}
